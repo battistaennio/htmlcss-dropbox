@@ -29,6 +29,7 @@ body{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 .bottone{
@@ -72,6 +73,7 @@ li{
 /* JUMBOTRON */
 #jumbotron{
     background-color: rgb(180, 208, 231);
+
 }
 
 #container-jumbo{
@@ -93,6 +95,11 @@ li{
     margin: 30px 0;
 }
 
+#arr-dwn{
+    font-size: 25px;
+    height: 100%;
+}
+
 #jumbo-img{
     width: 68%;
 }
@@ -110,30 +117,28 @@ main{
 .container-main section{
     width: 55%;
     /* debug */
-    background-color: bisque;
     min-height: 500px;
     border: 2px solid black;
 }
 
-    /* piani di abbonamento */
-
-.section-title{
-    /* debug */
-    min-height: 100px;
-    background-color: beige;
+main a{
+    color: black;
 }
 
 .section-title h2{
     font-size: 30px;
+    margin-bottom: 60px;
 }
 
+    /* piani di abbonamento */
+
+
 #fatt-type{
-    min-height: 70px;
-    background-color: rgb(255, 188, 88);
+    margin-bottom: 40px;
 }
 
 #fatt-type span{
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 #subscription-type{
