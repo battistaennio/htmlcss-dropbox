@@ -132,7 +132,6 @@ main a{
 
     /* piani di abbonamento */
 
-
 #fatt-type{
     margin-bottom: 40px;
 }
@@ -145,6 +144,17 @@ main a{
     min-height: 700px;
     background-color: brown;
 }
+
+.subscription-column{
+    width: calc(100% / 3 - 30px);
+    min-height: 100px;
+    background-color: aqua;
+}
+
+
+
+
+
 
 #enterprise{
     min-height: 150px;
