@@ -8,19 +8,59 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
-.flex{
+.flex-space_bet{
     display: flex;
     justify-content: space-between;
 }
 
-/* HEADER */
-li{
-    list-style-type: none;
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav-container{
-    /* debug */
-    min-height: 40px;
-    min-width: 100px;
-    background-color: aqua;
+.flex-align_center{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.bottone{
+    padding: 5px 12px;
+    background-color: rgb(0, 97, 255);
+    border: none;
+}
+
+/* HEADER */
+header{
+    height: 60px;
+    width: 100%;
+    padding: 15px 5px;
+    font-size: 13px;
+    background-color: white;
+    position: fixed;
+    z-index: 900;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-container a{
+    color: rgb(120, 120, 120);
+}
+
+.bottone a{
+    color: rgb(255, 255, 255);
+}
+
+/* JUMBOTRON */
+.jumbotron{
+    background-color: rgb(180, 208, 231);
+    min-height: 500px;
 }
