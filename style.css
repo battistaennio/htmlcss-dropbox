@@ -75,18 +75,18 @@ li{
 }
 
 #container-jumbo{
-    width: 60%;
+    width: 66%;
 }
 
 #title{
-    margin-top: 80px;
+    margin-top: 120px;
     margin-bottom: 30px;
     font-size: 30px;
 }
 
 #jumbo-des{
     width: 32%;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .spazio-bottone{
@@ -100,3 +100,15 @@ li{
 #jumbo-img img{
     width: 100%;
 }
+
+/* MAIN */
+
+.container-main section{
+    width: 55%;
+    /* debug */
+    background-color: bisque;
+    min-height: 500px;
+    border: 2px solid black;
+}
+
+    /* piani di abbonamento */
