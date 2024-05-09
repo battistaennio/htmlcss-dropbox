@@ -102,6 +102,10 @@ li{
 }
 
 /* MAIN */
+main{
+    margin-top: 70px;
+    font-size: 13px;
+}
 
 .container-main section{
     width: 55%;
@@ -112,3 +116,32 @@ li{
 }
 
     /* piani di abbonamento */
+
+.section-title{
+    /* debug */
+    min-height: 100px;
+    background-color: beige;
+}
+
+.section-title h2{
+    font-size: 30px;
+}
+
+#fatt-type{
+    min-height: 70px;
+    background-color: rgb(255, 188, 88);
+}
+
+#fatt-type span{
+    margin-right: 50px;
+}
+
+#subscription-type{
+    min-height: 700px;
+    background-color: brown;
+}
+
+#enterprise{
+    min-height: 150px;
+    background-color: blueviolet;
+}
