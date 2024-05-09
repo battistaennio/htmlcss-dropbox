@@ -7,3 +7,20 @@
 body{
     font-family: "Open Sans", sans-serif;
 }
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* HEADER */
+li{
+    list-style-type: none;
+}
+
+.nav-container{
+    /* debug */
+    min-height: 40px;
+    min-width: 100px;
+    background-color: aqua;
+}
