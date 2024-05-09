@@ -8,6 +8,7 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
+
 .flex-space_bet{
     display: flex;
     justify-content: space-between;
@@ -25,6 +26,10 @@ body{
 
 .flex-align_center{
     align-items: center;
+}
+
+.flex-align_start{
+    align-items: flex-start;
 }
 
 a{
@@ -118,7 +123,6 @@ main{
     width: 55%;
     /* debug */
     min-height: 500px;
-    border: 2px solid black;
 }
 
 main a{
@@ -140,17 +144,47 @@ main a{
     margin-right: 20px;
 }
 
-#subscription-type{
+#sub-container{
     min-height: 700px;
     background-color: brown;
 }
 
+        /* colonna tipo abbonamento */
 .subscription-column{
     width: calc(100% / 3 - 30px);
+    border: 2px solid gray;
     min-height: 100px;
     background-color: aqua;
 }
 
+.icon{
+    text-align: center;
+    /* debug */
+    min-height: 30px;
+    background-color: azure;
+
+}
+
+.row{
+    width: 85%;
+}
+
+.title{
+    min-height: 100px;
+    background-color: blueviolet;
+}
+
+.description{
+    background-color: chocolate;
+}
+
+.description-icon{
+    width: 10%;
+}
+
+.description-text{
+    width: 90%;
+}
 
 
 
