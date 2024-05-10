@@ -291,7 +291,6 @@ h3{
 /*  */
 #partner-container{
     min-height: 200px;
-    background-color: antiquewhite;
 }
 
 .partner-box{
@@ -299,21 +298,26 @@ h3{
     height: 50%;
 }
 
-.partner-box svg{
-    width: 70%;
+svg{
+    width: 50%;
     display: inline-block;
     color: white;
 }
 
 #partner-description{
+    background-color: rgb(245, 245, 245);
     width: 34%;
     height: 500px;
-    background-color: chocolate;
+    padding: 3%;
+}
+
+#partner-description_content{
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .partner-box_container{
     width: 33%;
-
 }
 
 #designit{
