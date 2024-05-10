@@ -273,3 +273,14 @@ h3{
     color: rgb(120, 120, 120);
 }
 
+/* funzionalità con img e descrizione */
+#function-container{
+    min-height: 400px;
+    background-color: antiquewhite;
+}
+
+.function-box{
+    width: calc(100% / 3 - 10px);
+    min-height: 200px;
+    background-color: aquamarine;
+}
