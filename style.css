@@ -57,6 +57,11 @@ img{
     padding: 10px 15px;
 }
 
+h2{
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
 /* HEADER */
 header{
     height: 60px;
@@ -133,11 +138,6 @@ main{
 
 main a{
     color: black;
-}
-
-.section-title h2{
-    font-size: 30px;
-    margin-bottom: 60px;
 }
 
     /* piani di abbonamento */
@@ -277,4 +277,40 @@ h3{
 .function-box{
     width: calc(100% / 3 - 20px);
     margin-bottom: 30px;
+}
+
+#section-title_margin{
+    margin: 100px 0;
+}
+
+#section-title_margin a{
+    color: blue;
+    text-decoration: underline;
+}
+
+/*  */
+#partner-container{
+    min-height: 200px;
+    background-color: antiquewhite;
+}
+
+.partner-box{
+    width: 50%;
+    height: 50%;
+    background-color: beige;
+    border: 2px solid black;
+}
+
+.partner-box svg{
+    width: 70%;
+}
+#partner-description{
+    width: 34%;
+    height: 500px;
+    background-color: chocolate;
+}
+
+.partner-box_container{
+    width: 33%;
+
 }
