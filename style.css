@@ -30,12 +30,17 @@ body{
 }
 
 .flex-align_start{
+    display: flex;
     align-items: flex-start;
 }
 
 a{
     text-decoration: none;
     color: black;
+}
+
+img{
+    width: 100%;
 }
 
 .bottone{
@@ -111,10 +116,6 @@ li{
     width: 68%;
 }
 
-#jumbo-img img{
-    width: 100%;
-}
-
 /* MAIN */
 main{
     margin-top: 70px;
@@ -169,9 +170,10 @@ main a{
 
 .title{
     margin: 40px 0;
+    position: relative;
 }
 
-.title h3{
+h3{
     font-size: 20px;
 }
 
@@ -226,11 +228,24 @@ main a{
     margin-bottom: 15px;
 }
 
-
-
-
-
+    /* enterprise */
 #enterprise{
-    min-height: 150px;
-    background-color: blueviolet;
+    margin-top: 50px;
+    border: 2px solid rgb(215, 215, 215);
+
+    min-height: 250px;
+}
+
+#enterprise-content{
+    margin: 3%; 
+}
+
+.title p{
+    margin-top: 40px;
+}
+
+.title button{
+    position: absolute;
+    right: 0;
+    top: 0;
 }
