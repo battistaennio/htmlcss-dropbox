@@ -274,13 +274,7 @@ h3{
 }
 
 /* funzionalità con img e descrizione */
-#function-container{
-    min-height: 400px;
-    background-color: antiquewhite;
-}
-
 .function-box{
-    width: calc(100% / 3 - 10px);
-    min-height: 200px;
-    background-color: aquamarine;
+    width: calc(100% / 3 - 20px);
+    margin-bottom: 30px;
 }
