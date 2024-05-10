@@ -8,6 +8,9 @@ body{
     font-family: "Open Sans", sans-serif;
 }
 
+section{
+    margin: 40px 0;
+}
 
 .flex-space_bet{
     display: flex;
@@ -249,3 +252,24 @@ h3{
     right: 0;
     top: 0;
 }
+
+/* trova partner */
+#trova-partner_img{
+    width: 60%;
+}
+
+#trova-partner_content{
+    width: 40%;
+    padding: 5%;
+
+}
+
+#button-partner{
+    background-color: transparent;
+    border: 2px solid rgb(120, 120, 120);
+}
+
+#button-partner a{
+    color: rgb(120, 120, 120);
+}
+
