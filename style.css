@@ -372,5 +372,26 @@ svg{
 }
 
 /* FAQ */
+.faq{
+    padding: 5% 0;
+    position: relative;
+}
 
+.faq i{
+    position: absolute;
+    right: 5%;
+}
+
+#middle{
+    border-top: 2px solid rgb(182, 182, 182);
+    border-bottom: 2px solid rgb(182, 182, 182);
+}
+
+#top{
+    border-top: 2px solid rgb(182, 182, 182);
+}
+
+#bottom{
+    border-bottom: 2px solid rgb(182, 182, 182); 
+}
 
