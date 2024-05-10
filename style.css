@@ -75,7 +75,7 @@ header{
     left: 0;
 }
 
-li{
+.nav-container li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
@@ -394,4 +394,39 @@ svg{
 #bottom{
     border-bottom: 2px solid rgb(182, 182, 182); 
 }
+
+/* footer */
+footer{
+    background-color: rgb(0, 0, 0);
+}
+
+.sez-footer{
+    align-items: flex-start;
+}
+
+footer .link{
+    margin: 90px;
+}
+
+.container{
+    width: 70%;
+}
+
+.link-footer a{
+    color: white;
+}
+
+.link-footer li{
+    padding-bottom: 10px;
+    list-style-type: none;
+    font-size: 13px;
+}
+
+.link-footer li:first-child{
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    margin-bottom: 10px;
+}
+
 
