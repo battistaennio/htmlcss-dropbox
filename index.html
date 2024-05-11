@@ -95,7 +95,7 @@
 
                     <span>Annulla in qualsiasi momento</span>
                     <br>
-                    <a href="#fatt-type">
+                    <a id="link-to" href="#fatt-type">
                         <i class="fa-solid fa-arrow-down fa-2xl"></i>
                     </a>
 
@@ -165,7 +165,7 @@
                             </div>
                             
                             <!-- dettagli piano di abbonamento -->
-                            <div class="plan-detail flex-wrap">
+                            <div class="plan-detail">
         
                                 <div class="flex-align_start">
                                     <div class="plan-detail-icon">
@@ -272,7 +272,7 @@
                             </div>
                             
                             <!-- dettagli piano di abbonamento -->
-                            <div class="plan-detail flex-wrap">
+                            <div class="plan-detail">
         
                                 <div class="flex-align_start">
                                     <div class="plan-detail-icon">
@@ -409,7 +409,7 @@
                             </div>
                             
                             <!-- dettagli piano di abbonamento -->
-                            <div class="plan-detail flex-wrap">
+                            <div class="plan-detail">
         
                                 <div class="flex-align_start">
                                     <div class="plan-detail-icon">
@@ -512,7 +512,7 @@
 
                     <div id="enterprise-content">
 
-                        <div class="title">
+                        <div class="enterprise-title">
 
                             <h3>Enterprise</h3>
                             <br>
@@ -760,72 +760,75 @@
 
     <!-- footer -->
     <footer>
-        <div class="flex-center sez-footer">
+        <div id="footer-container" class="flex-space_bet">
 
-            <div class="flex-space_bet link container">
-
-                <div class="link-footer">
-                    <ul>
-                        <li>Dropbox</li>
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                    </ul>
-                </div>
-
-                <div class="link-footer">
-                    <ul>
-                        <li>Prodotti</li>
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                    </ul>
-      
-                </div>
-
-                <div class="link-footer">
-                    <ul>
-                        <li>Azienda</li>
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                    </ul>
-
-                            
-                </div>
-
-                <div class="link-footer">
-                    <ul>
-                        <li>Supporto</li>
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                    </ul> 
-                </div>
-
-                <div class="link-footer">
-                    <ul>
-                        <li>Community</li>
-                        <li><a href="#">Applicazione desktop</a></li>
-                        <li><a href="#">Perché Dropbox</a></li>
-                        <li><a href="#">Piani</a></li>
-                        <li><a href="#">Sicurezza</a></li>
-                        <li><a href="#">Funzioni</a></li>
-                    </ul> 
-                </div>
-
+            <div class="footer-column">
+                <ul>
+                    <li>Dropbox</li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perché Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                </ul>
             </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li>Prodotti</li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perché Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li>Azienda</li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perché Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li>Supporto</li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perché Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                </ul>            
+            </div>
+
+            <div class="footer-column">
+                <ul>
+                    <li>Community</li>
+                    <li><a href="#">Applicazione desktop</a></li>
+                    <li><a href="#">Perché Dropbox</a></li>
+                    <li><a href="#">Piani</a></li>
+                    <li><a href="#">Sicurezza</a></li>
+                    <li><a href="#">Funzioni</a></li>
+                </ul>            
+            </div>
+
+
+        </div>
+
+        <div id="lenguage">
+            <div id="fake-border_footer" class="fake-border"></div>
+            <a href="#">
+                <i class="fa-solid fa-earth-americas"></i>
+                <span>Italiano</span>
+                <i class="fa-solid fa-caret-down"></i>
+            </a>
         </div>
 
     </footer>
-
 </body>
 </html>
