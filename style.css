@@ -163,56 +163,44 @@ main a{
     min-height: 700px;
 }
 
-        /* colonna tipo abbonamento */
-.subscription-column{
+    /* colonna tipo abbonamento */
+.subscription_column{
     width: calc(100% / 3 - 30px);
     border: 2px solid rgb(215, 215, 215);
-    min-height: 100px;
 }
 
-.icon{
+.column-icon{
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 20%;
     border-bottom: 2px solid rgb(215, 215, 215);
 }
 
-.row{
-    width: 85%;
+.column-content_padding{
+    padding: 25px 7%;
 }
 
-.title{
-    margin: 40px 0;
-    position: relative;
+.column-title{
+    margin-bottom: 40px;
 }
 
-h3{
-    font-size: 20px;
+.text-gray{
+    color: rgb(145, 145, 145);
 }
 
-.price-description{
-    color: rgb(120, 120, 120);
-    display: inline-block;
-    margin-top: 10px;
+.plan-detail{
+    height: 200px;
 }
 
-.description{
-    margin-bottom: 30px;
+.plan-detail.height-auto{
+    height: auto;
 }
 
-.description div{
-    margin: 5px 0;
+.plan-detail-icon{
+    margin-right: 10px;
 }
 
-.description-icon{
-    width: 10%;
-}
-
-.description-icon.blue{
-    color: rgb(0, 97, 255);
-}
-
-.description-text{
-    width: 90%;
+.plan-detail-text{
+    margin-bottom: 10px;
 }
 
 .button-subscription{
@@ -229,7 +217,7 @@ h3{
     text-decoration: underline;
 }
 
-.fake-margin{
+.fake-border{
     margin: 40px 0;
     width: 25%; 
     height: 2px;
@@ -238,6 +226,10 @@ h3{
 
 .salienti{
     margin-bottom: 15px;
+}
+
+.blue{
+    color: blue;
 }
 
     /* enterprise */
