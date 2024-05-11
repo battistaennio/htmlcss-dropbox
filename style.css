@@ -79,6 +79,12 @@ header{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
+    padding-bottom: 22px;
+
+}
+
+.hover-nav{
+    transition: all 60ms ease-out;
 }
 
 .nav-container a{
@@ -89,11 +95,16 @@ header{
     color: rgb(255, 255, 255);
 }
 
+/* animazioni header */
+
+.hover-nav:hover{
+    border-bottom: 3px solid blue;
+}
+
 /* JUMBOTRON */
 #jumbotron{
     background-color: rgb(180, 208, 231);
     height: 700px;
-
 }
 
 #container-jumbo{
