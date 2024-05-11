@@ -1,0 +1,120 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+}
+
+section{
+    margin: 40px 20%;
+}
+
+.flex-space_bet{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-align_center{
+    display: flex;
+    align-items: center;
+}
+
+.flex-align_start{
+    display: flex;
+    align-items: flex-start;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+}
+
+.bottone{
+    padding: 5px 12px;
+    background-color: rgb(0, 97, 255);
+    border: none;
+    font-size: 14px;
+}
+
+.bottone-grande{
+    padding: 10px 15px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+
+
+main{
+    margin-top: 70px;
+    font-size: 13px;
+}
+
+.container-main section{
+    width: 55%;
+}
+
+main a{
+    color: black;
+}
+
+        /* colonna tipo abbonamento */
+/* #subscription-section{
+    width: 80%;
+} */
+
+.subscription-column_container{
+    min-height: 500px;
+    background-color: beige;
+}
+
+.subscription_column{
+    width: calc(100% / 3 - 10px);
+    min-height: 200px;
+    background-color: chocolate;
+}
+
+.column-icon{
+    text-align: center;
+    padding: 5px 20%;
+}
+
+.column-content_padding{
+    padding: 25px 7%;
+}
+
+.column-title{
+    margin-bottom: 40px;
+}
+
+.plan-detail{
+    align-items: flex-start;
+}
+
+.flex-align_start{
+    display: flex;
+    align-items: flex-start;
+}
+
+.plan-detail-icon{
+}
