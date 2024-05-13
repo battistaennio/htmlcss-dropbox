@@ -129,7 +129,7 @@ nav img{
 .dropdown_content{
     display: none;
     position: absolute;
-    min-width: 100px;
+    min-width: 150px;
     border: none;
     margin-top: 25px;
     text-align: center;
