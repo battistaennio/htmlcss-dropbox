@@ -39,7 +39,6 @@ section{
 
 a{
     text-decoration: none;
-    color: black;
 }
 
 img{
@@ -48,9 +47,16 @@ img{
 
 .bottone{
     padding: 5px 12px;
+    color: white;
     background-color: rgb(0, 97, 255);
     border: none;
     font-size: 14px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+
+[type=button]:hover, .button-subscription:hover{
+    background-color: rgb(0, 0, 190);
 }
 
 .bottone-grande{
@@ -87,8 +93,13 @@ header{
 
 }
 
+nav img{
+    width: 80%;
+}
+
 .hover-nav{
     transition: all 60ms ease-out;
+    cursor: pointer;
 }
 
 .nav-container a{
@@ -108,7 +119,6 @@ header{
 /* JUMBOTRON */
 #jumbotron{
     background-color: rgb(180, 208, 231);
-    height: 700px;
 }
 
 #container-jumbo{
@@ -129,6 +139,7 @@ header{
 #jumbo-des i{
     font-size: 40px;
     margin-top: 50px;
+    color: black;
 }
 
 .spazio-bottone{
@@ -139,6 +150,9 @@ header{
     width: 68%;
 }
 
+#jumbo-img img{
+    width: 100%;
+}
 
 /* MAIN */
 main{
@@ -162,10 +176,6 @@ main a{
 
 #fatt-type span{
     margin-right: 20px;
-}
-
-#sub-container{
-    min-height: 700px;
 }
 
     /* colonna tipo abbonamento */
@@ -196,10 +206,6 @@ main a{
     height: 140px;
 }
 
-.plan-detail.height-auto{
-    height: auto;
-}
-
 .plan-detail-icon{
     margin-right: 10px;
 }
@@ -215,6 +221,7 @@ main a{
     background-color: rgb(0, 97, 255);
     color: white;
     cursor: pointer;
+    transition: all 0.2s linear;
 }
 
 .buy-now a{
@@ -269,12 +276,17 @@ main a{
 #trova-partner_content{
     width: 40%;
     padding: 5%;
-
 }
 
 #button-partner{
-    background-color: transparent;
-    border: 2px solid rgb(120, 120, 120);
+    color: rgb(156, 156, 156);
+    background-color: white;
+    border: 2px solid rgb(156, 156, 156);
+    transition: all 0.2s linear;
+}
+
+#button-partner:hover, #button-free_trial:hover{
+    background-color: rgb(233, 233, 233);
 }
 
 #button-partner a{
@@ -296,14 +308,14 @@ main a{
     text-decoration: underline;
 }
 
-/*  */
-#partner-container{
-    min-height: 200px;
-}
-
+/* aziende partner */
 .partner-box{
     width: 50%;
-    height: 50%;
+    height: 250px;
+}
+
+.partner-box:hover{
+    border: 15px solid rgba(235, 235, 235, 0.44);
 }
 
 svg{
@@ -375,9 +387,6 @@ svg{
 
 #button-free_trial{
     background-color: white;
-}
-
-#button-free_trial a{
     color: black;
 }
 
