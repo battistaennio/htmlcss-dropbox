@@ -314,14 +314,13 @@ main a{
     height: 250px;
 }
 
-.partner-box:hover{
-    border: 15px solid rgba(235, 235, 235, 0.44);
+.partner-box svg{
+    filter: invert(1);
 }
 
 svg{
     width: 50%;
     display: inline-block;
-    color: white;
 }
 
 #partner-description{
@@ -342,6 +341,7 @@ svg{
 
 #designit{
     background-color: rgb(162, 211, 155);
+    border: 15px solid rgba(235, 235, 235, 0.44);
 }
 
 #asu{
