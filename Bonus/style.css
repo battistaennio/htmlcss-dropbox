@@ -116,6 +116,31 @@ nav img{
     border-bottom: 3px solid blue;
 }
 
+/* regole dropdown header */
+.dropdown_content a{
+    display: block;
+    padding: 5px;
+}
+
+.dropdown_content a:hover{
+    background-color: rgba(228, 228, 228, 0.449);
+}
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    border: none;
+    margin-top: 25px;
+    text-align: center;
+    background-color: white;
+}
+
+.hover-nav:hover .dropdown_content{
+    display: block;
+}
+
+
 /* JUMBOTRON */
 #jumbotron{
     background-color: rgb(180, 208, 231);
