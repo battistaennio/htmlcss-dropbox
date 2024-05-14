@@ -301,11 +301,13 @@ main a{
 
 #section-title_margin{
     margin: 100px 0;
+    padding: 0 22.5%;
 }
 
 #section-title_margin a{
     color: blue;
     text-decoration: underline;
+    display: block;
 }
 
 /* aziende partner */
