@@ -85,29 +85,29 @@ header{
     left: 0;
 }
 
-.nav-container li{
+ li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
     padding-bottom: 22px;
-
 }
 
 nav img{
     width: 80%;
 }
 
-.hover-nav{
-    transition: all 60ms ease-out;
-    cursor: pointer;
-}
-
-.nav-container a{
+ul a{
     color: rgb(120, 120, 120);
+    padding-bottom: 22px;
 }
 
 .bottone a{
     color: rgb(255, 255, 255);
+}
+
+.hover-nav{
+    transition: all 60ms ease-out;
+    cursor: pointer;
 }
 
 /* animazioni header */
@@ -350,6 +350,10 @@ svg{
 
 #uf{
     background-color: rgb(0, 147, 206);
+}
+
+#uf svg{
+    width: 85%;
 }
 
 #topps{
