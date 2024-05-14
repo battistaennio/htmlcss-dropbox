@@ -85,7 +85,7 @@ header{
     left: 0;
 }
 
- li{
+header li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
