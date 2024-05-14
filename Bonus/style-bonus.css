@@ -85,12 +85,11 @@ header{
     left: 0;
 }
 
-.nav-container li{
+header li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
     padding-bottom: 22px;
-
 }
 
 nav img{
@@ -102,12 +101,13 @@ nav img{
     cursor: pointer;
 }
 
-.nav-container a{
+ul a{
     color: rgb(120, 120, 120);
 }
 
 .bottone a{
     color: rgb(255, 255, 255);
+    padding-bottom: 22px;
 }
 
 /* animazioni header */
@@ -326,6 +326,7 @@ main a{
 
 #section-title_margin{
     margin: 100px 0;
+    padding: 0 22.5%;
 }
 
 #section-title_margin a{
