@@ -89,6 +89,9 @@ header li{
     list-style-type: none;
     display: inline-block;
     margin: 0 20px;
+}
+
+.padd-bott{
     padding-bottom: 22px;
 }
 
@@ -136,7 +139,7 @@ ul a{
     background-color: white;
 }
 
-.hover-nav:hover .dropdown_content{
+li:hover .dropdown_content{
     display: block;
 }
 
